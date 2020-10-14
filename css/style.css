@@ -1,0 +1,62 @@
+.navList {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.padreNoticias {
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 75px;
+    text-align: end;
+}
+
+.item_link {
+    color: whitesmoke;
+}
+
+#lgdkNav {
+    font-size: 50px;
+    color: orange;
+    margin-top: 53px;
+}
+
+#tamañoLogo {
+    width: 107px;
+    height: 94px;
+}
+
+#logoNav {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+article {
+    border: 2px solid orange;
+}
+
+@media screen and (min-width: 660px) {
+    p {
+        color: blue;
+    }
+}
